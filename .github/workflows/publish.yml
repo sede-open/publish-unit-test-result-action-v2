@@ -240,6 +240,9 @@ jobs:
           - os: ubuntu-20.04
             os-label: Linux 20.04
             python: "installed"
+          - os: ubuntu-24.04
+            os-label: Linux 24.04
+            python: "installed"
 
     steps:
       - name: Checkout
@@ -299,9 +302,6 @@ jobs:
             python: "venv"
           - os: macos-latest
             os-label: macOS
-            python: "installed"
-          - os: macos-11
-            os-label: macOS 11
             python: "installed"
           - os: macos-12
             os-label: macOS 12
